@@ -19,6 +19,6 @@
   "keywords": [],
   
   "devDependencies": {
-    "concurrently": "^5.2.0"
+    "concurrently": "^6.3.0"
   }
 }
