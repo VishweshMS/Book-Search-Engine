@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "server/server.js",
+  "engines": {
+    "node": "^14.0.0"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cd server && npm start",
@@ -12,21 +15,10 @@
     "seed": "cd server && npm run seed",
     "heroku-postbuild": "cd client && npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git@work.github.com:izabelacloud/Book-Search-Engine.git"
-  },
+  
   "keywords": [],
-  "author": "Izabela Petrovicova",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/izabelacloud/Book-Search-Engine/issues"
-  },
-  "homepage": "https://github.com/izabelacloud/Book-Search-Engine#readme",
-  "dependencies": {
-    "if-env": "^1.0.4"
-  },
+  
   "devDependencies": {
-    "concurrently": "^5.2.0"
+    "concurrently": "^6.3.0"
   }
 }
